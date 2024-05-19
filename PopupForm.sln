@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopupForm", "WebApplication1\PopupForm.csproj", "{2E656823-75AD-475E-8F6A-48E9916EAE6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E656823-75AD-475E-8F6A-48E9916EAE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E656823-75AD-475E-8F6A-48E9916EAE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E656823-75AD-475E-8F6A-48E9916EAE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E656823-75AD-475E-8F6A-48E9916EAE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04905AA9-6ACB-4894-80E8-46829FEDC22D}
+	EndGlobalSection
+EndGlobal

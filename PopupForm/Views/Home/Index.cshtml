@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<button onclick="Show()" class="btn btn-primary">Create Product</button>
+
+
+
+
+<div class="demo-page  position-relative" >
+    <main class="w-100 demo-page-content d-none position-absolute top-0 start-0" id="form">
+        <section>
+            <div class="href-target" id="input-types"></div>
+            <h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify">
+                    <line x1="21" y1="10" x2="3" y2="10" />
+                    <line x1="21" y1="6" x2="3" y2="6" />
+                    <line x1="21" y1="14" x2="3" y2="14" />
+                    <line x1="21" y1="18" x2="3" y2="18" />
+                </svg>
+                Input types
+            </h1>
+            <p>All available input types are included</p>
+
+            <div class="nice-form-group">
+                <label>Text</label>
+                <input type="text" placeholder="Your name" value="" />
+            </div>
+
+            <div class="nice-form-group">
+                <label>Email</label>
+                <input type="email" placeholder="Your email" value="" />
+            </div>
+
+            <div class="nice-form-group">
+                <label>Phonenumber</label>
+                <input type="tel" placeholder="Your phonenumber" value="" />
+            </div>
+
+            <div class="nice-form-group">
+                <label>Url</label>
+                <input type="url" placeholder="www.google.com" value="" />
+            </div>
+
+            <div class="nice-form-group">
+                <label>Password</label>
+                <input type="password" placeholder="Your password" />
+            </div>
+
+            <div class="nice-form-group">
+                <label>Search</label>
+                <input type="search" placeholder="Search all the things" value="" />
+            </div>
+
+            <div class="nice-form-group">
+                <label>Disabled field</label>
+                <input type="text" disabled placeholder="Your name" value="" />
+            </div>
+
+            <div class="nice-form-group">
+            <button class="btn btn-success">Create</button>
+            </div>
+        </section>
+
+   
+    </main>
+
+    <ul class="m-auto">
+        <li>Ahmed</li>
+        <li>Sameh</li>
+        <li>Ali</li>
+        <li>Mohamed</li>
+        <li>Elsaid</li>
+    </ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function Show() {
+        var form = $("#form");
+        form.toggleClass("d-none"); // Show the form
+    }
+</script>

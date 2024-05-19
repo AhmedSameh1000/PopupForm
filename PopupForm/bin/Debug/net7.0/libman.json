@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "angular-material@1.2.5",
+      "destination": "wwwroot/angular-material/"
+    }
+  ]
+}
